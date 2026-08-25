@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#09070c">
+<title>For Sadia ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap');
+:root{--bg:#09070c;--card:rgba(255,255,255,.07);--text:#fff8fb;--muted:#c9bbc2;--pink:#ff8fb1;--pink2:#ffd1df;--line:rgba(255,255,255,.13)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(circle at 50% 0%,#25121c 0,#0b0710 42%,#07060a 100%);color:var(--text);font-family:"DM Sans",sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:42px 42px}
+section{min-height:100svh;padding:80px 22px;display:flex;align-items:center;justify-content:center;position:relative}
+.wrap{width:min(920px,100%);margin:auto}.kicker{letter-spacing:.22em;text-transform:uppercase;font-size:.72rem;color:var(--pink2)}
+h1,h2{font-family:"Playfair Display",serif;font-weight:500;line-height:1.05;margin:.25em 0}
+h1{font-size:clamp(3.4rem,15vw,8rem);font-style:italic}h2{font-size:clamp(2.2rem,9vw,4.5rem)}
+p{line-height:1.75;color:var(--muted);font-size:1rem}.hero{text-align:center;min-height:100svh}.hero .wrap{display:flex;flex-direction:column;align-items:center}
+.heart{font-size:2rem;animation:pulse 1.7s infinite;filter:drop-shadow(0 0 20px rgba(255,143,177,.45))}
+@keyframes pulse{50%{transform:scale(1.18)}}.sub{max-width:560px;margin:0 auto 28px}
+.btn{border:1px solid var(--line);background:rgba(255,255,255,.06);color:white;border-radius:999px;padding:13px 20px;font:inherit;cursor:pointer;backdrop-filter:blur(10px);transition:.25s}
+.btn:hover{transform:translateY(-2px);background:rgba(255,255,255,.11)}.scroll{position:absolute;bottom:25px;font-size:.75rem;color:#9f8d96;letter-spacing:.15em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:28px;backdrop-filter:blur(18px);box-shadow:0 20px 70px rgba(0,0,0,.25)}
+.message{font-family:"Playfair Display",serif;font-size:clamp(1.35rem,4vw,2rem);line-height:1.55;color:#fff}.message em{color:var(--pink2)}
+.quote{text-align:center;max-width:720px;margin:auto}.quote p{font-family:"Playfair Display",serif;font-size:clamp(1.7rem,5vw,3rem);font-style:italic;color:#fff;line-height:1.35}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:30px}.photo{margin:0;overflow:hidden;border-radius:20px;border:1px solid var(--line);background:#151017;padding:7px;box-shadow:0 14px 45px rgba(0,0,0,.22)}
+.photo img{width:100%;height:100%;min-height:210px;aspect-ratio:4/5;object-fit:cover;display:block;border-radius:14px;transition:transform .7s}.photo:hover img{transform:scale(1.045)}
+.photo:nth-child(3n){grid-column:span 2}.final{text-align:center}.final .big{font-size:clamp(2.7rem,11vw,6rem)}
+.small{font-size:.88rem;color:#95868e}.hidden{opacity:0;transform:translateY(28px);transition:opacity .9s ease,transform .9s ease}.hidden.show{opacity:1;transform:none}
+.reveal{display:none;margin-top:20px}.reveal.open{display:block;animation:fade .7s ease}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.floating{position:fixed;right:18px;bottom:18px;z-index:20}
+@media(max-width:600px){section{padding:70px 17px}.card{padding:22px;border-radius:24px}.gallery{gap:9px}.photo{border-radius:16px}.photo img{min-height:190px}}
+</style>
+</head>
+<body>
+<audio id="bgm" autoplay loop playsinline>
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+<div class="floating"><button class="btn" id="music" style="display:none">♪ little soundtrack</button></div>
+
+<section class="hero">
+<div class="wrap">
+<div class="kicker">for the love of my life 🕊️💐🐣</div>
+<h1 style="font-size:clamp(2.7rem,11vw,6rem)">Before you read…</h1>
+<p class="sub" style="font-family:'Playfair Display',serif;font-size:clamp(1.3rem,4.5vw,2rem);font-style:italic;color:#fff">
+I don't know if this is a birthday wish,<br>
+a letter, or just everything I've never properly been able to say.
+</p>
+<p class="sub">We've fought. We've hurt each other. We've broken up. We've walked away from each other more than once.</p>
+<button class="btn" onclick="document.querySelector('#letter').scrollIntoView({behavior:'smooth'})">read this when you're ready ♡</button>
+</div>
+<div class="scroll">KEEP GOING</div>
+</section>
+
+<section id="letter"><div class="wrap hidden"><div class="kicker">a little letter</div><div class="card">
+<div class="message">
+I don't know if this is a birthday wish,
+a letter, or just everything I've never properly been able to say.<br><br>
+
+We've fought.<br>
+We've hurt each other.<br>
+We've broken up.<br>
+We've walked away from each other more than once.<br><br>
+
+There were moments when we probably thought
+we had finally reached the end of us.<br><br>
+
+But somehow…<br><br>
+
+<em>we're still here.</em><br><br>
+
+Still talking.<br>
+Still laughing.<br>
+Still annoying each other.<br>
+Still flirting.<br>
+Still caring.<br>
+Still finding our way back to each other.<br><br>
+
+And maybe that's what makes us different.<br><br>
+
+Because no matter how many times we fall apart,
+somehow neither of us ever really becomes a stranger to the other.<br><br>
+
+I don't know what we're supposed to call what we are anymore.
+Maybe we don't even need to call it anything.<br><br>
+
+I just know that after everything,
+when the anger fades,
+when the arguments are over,
+when the distance gets quiet…<br><br>
+
+<em>it's still you I think about.</em><br><br>
+
+And if there's one thing I've learned from everything we've been through,
+it's that some people can leave your life,
+but they never really leave your heart.<br><br>
+
+So before you read anything else,
+just know this isn't about pretending we've been perfect.<br><br>
+
+It's about us.<br><br>
+
+The messy parts.<br>
+The beautiful parts.<br>
+The memories.<br>
+The fights.<br>
+The times we came back.<br>
+The moments that made me fall for you all over again.<br><br>
+
+And most importantly…<br><br>
+
+it's about the fact that<br>
+after everything,<br><br>
+
+<em>we're still here. ❤️</em><br><br>
+
+And today, on your birthday, I just want you to know how grateful I am
+that somehow, through every version of us, you've remained someone I care about this deeply.<br><br>
+
+I hope this year is softer on you.
+I hope you get every happiness you deserve.
+I hope you smile more, worry less, and achieve everything you dream about.<br><br>
+
+And selfishly, I hope I get to be there for some of those smiles too.<br><br>
+
+Happy birthday. 🎂❤️
+</div></div></div></div></section>
+
+<section><div class="wrap hidden"><div class="quote"><div class="kicker">one thing</div>
+<p>“No matter how many times our story gets complicated, somehow we keep finding our way back to the same place — each other.”</p>
+<p class="small">Maybe that's what makes us… us. ♡</p></div></div></section>
+
+
+
+<section>
+<div class="wrap hidden">
+  <div class="kicker">little pieces of us</div>
+  <h2>Some moments just stay.</h2>
+  <p>Six little memories, kept here exactly because they mean something.</p>
+
+  <div class="gallery">
+    <figure class="photo"><img src="photo1.jpg" alt="A little moment together"></figure>
+    <figure class="photo"><img src="photo2.jpg" alt="Another little moment together"></figure>
+    <figure class="photo"><img src="photo3.jpg" alt="A beautiful memory"></figure>
+    <figure class="photo"><img src="photo4.jpg" alt="A beautiful memory"></figure>
+    <figure class="photo"><img src="photo5.jpg" alt="A beautiful memory"></figure>
+    <figure class="photo"><img src="photo6.jpg" alt="A beautiful memory"></figure>
+  </div>
+</div>
+</section>
+
+<section><div class="wrap hidden"><div class="card" style="text-align:center">
+<div class="kicker">okay, one last thing</div><h2>Before you go…</h2>
+<p>I hid one more message here. Obviously you have to earn it. 😭</p>
+<button class="btn" id="revealBtn">press this</button>
+<div class="reveal" id="reveal"><p class="message">
+If I could give you one thing this birthday, it would be the ability to see yourself
+the way the people who genuinely care about you see you. You'd realise just how special you are. ❤️<br><br>
+Happy birthday, Sadia.<br><em>Stay exactly as wonderfully you as you are.</em>
+</p></div></div></div></section>
+
+<section class="final">
+<div class="wrap hidden">
+<div class="heart">♥</div>
+<div class="kicker">28 august</div>
+<p style="font-family:'Playfair Display',serif;font-size:clamp(1.3rem,4vw,2rem);color:#fff">Happy Birthday…</p>
+<h2 class="big"><i>Sadia.</i> ❤️</h2>
+<p style="font-family:'Playfair Display',serif;font-size:clamp(1.2rem,4vw,1.7rem);color:#fff">
+No matter how many times we lose our way,<br>
+I hope we never become strangers.
+</p>
+<p>Whatever we call us. Whatever happens next.<br>
+Thank you for still being you. ❤️</p>
+</div>
+</section>
+
+<script>
+const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('show')}),{threshold:.15});
+document.querySelectorAll('.hidden').forEach(x=>obs.observe(x));
+document.getElementById('revealBtn').onclick=()=>{
+ document.getElementById('reveal').classList.toggle('open');
+ document.getElementById('revealBtn').textContent=document.getElementById('reveal').classList.contains('open')?'okay, you found it ♡':'press this';
+};
+const bgm=document.getElementById('bgm');
+const musicBtn=document.getElementById('music');
+
+let musicStarted=false;
+
+async function startMusic(){
+  if(musicStarted) return;
+  try{
+    await bgm.play();
+    musicStarted=true;
+  }catch(e){
+    // Browser autoplay policy blocked sound; first interaction will retry.
+  }
+}
+
+window.addEventListener('load', startMusic);
+
+['pointerdown','touchstart','click','keydown'].forEach(eventName=>{
+  document.addEventListener(eventName, startMusic, {once:true, passive:true});
+});</script>
+</body></html>
