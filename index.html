@@ -424,6 +424,12 @@ section{overflow:clip}
 .final-love-text{white-space:normal;overflow-wrap:break-word;word-break:normal}
 body{width:100%;max-width:100%;overflow-x:hidden}
 
+
+/* FINAL ENVELOPE VISIBILITY FIX */
+.final-love-section{display:block!important;width:100%;min-height:420px;padding:70px 0 90px;opacity:1!important;transform:none!important;visibility:visible!important}
+.final-love-section .final-envelope-wrap{display:block!important;opacity:1!important;visibility:visible!important}
+.final-envelope{display:block!important;visibility:visible!important}
+
 </style>
 </head>
 <body>
@@ -1418,7 +1424,7 @@ const birthdaySongSectionObserver=(()=>{
 
 
 <section class="final-love-section">
-  <div class="wrap center fade">
+  <div class="wrap center">
     <div class="final-envelope-wrap">
       <div class="final-envelope-label">one last thing</div>
       <button class="final-envelope" id="finalLoveEnvelope" type="button" aria-label="Open the final letter">
